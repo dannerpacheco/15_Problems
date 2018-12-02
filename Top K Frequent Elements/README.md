@@ -16,20 +16,42 @@ Given a non-empty array of integers, return the k most frequent elements.
     Output: [1]
 *Note:*
 
-    *You may assume k is always valid, 1 ≤ k ≤ number of unique elements.
-    *Your algorithm's time complexity must be better than O(n log n), where n is the array's size.
-    
+    * You may assume k is always valid, 1 ≤ k ≤ number of unique elements.
+    * Your algorithm's time complexity must be better than O(n log n), where n is the array's size.
+
+
+***
+# Introduction
+***
+   
+
    
 ***
 # Approach
 ***
 
-## Identify Problem
+## IDEAL
 
-## Define Goals
+### Identify Problem
 
-## Explore Strategies
+### Define Goals
 
-## Anticipate Outcomes 
+### Explore Strategies
 
-## Look Back and Learn
+### Anticipate Outcomes 
+
+### Look Back and Learn
+
+* * *
+
+## The Seven Steps
+
+### Work an Example
+
+### Write Down What You Did
+
+### Generalize 
+
+### Test by Hand
+
+### Translate to Code
