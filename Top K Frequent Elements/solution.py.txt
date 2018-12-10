@@ -1,0 +1,28 @@
+class Solution:
+    def topKFrequent(self, nums, k):
+        """
+        :type nums: List[int]
+        :type k: int
+        :rtype: List[int]
+        """
+        if k == 1:
+            my_list = []
+            for num in nums:
+                if num not in my_list:
+                    my_list.append(num)
+            return my_list
+        
+        my_dict = {}
+        result = []
+        
+        for num in nums:
+            
+            if num in my_dict.keys():
+                my_dict[num] += 1
+                if my_dict[num] >= k:
+                    if num not in result:
+                        result.append(num)
+            else:
+                my_dict[num] = 1
+                
+        return result
